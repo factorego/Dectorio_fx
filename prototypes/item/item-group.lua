@@ -7,7 +7,7 @@ if DECT.ENABLED["item-group"] then
 			type = "item-group",
 			name = "dectorio",
 			order = "d-a",
-			icon = "__Dectorio__/graphics/item-group/dectorio.png",
+			icon = "__Dectorio_fx__/graphics/item-group/dectorio.png",
 			icon_size = 128,
 		}
 	})

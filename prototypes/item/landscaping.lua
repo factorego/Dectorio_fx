@@ -21,7 +21,7 @@ if DECT.ENABLED["landscaping"] then
 				{
 					type = "item",
 					name = "dect-base-" .. tile,
-					icon = "__Dectorio__/graphics/icons/base-" .. tile .. ".png",
+					icon = "__Dectorio_fx__/graphics/icons/base-" .. tile .. ".png",
 					icon_size = 64,
 					subgroup = "landscaping",
 					order = "a[base-" .. tile .. "]",
@@ -61,7 +61,7 @@ if DECT.ENABLED["waterfill"] then
 				{
 					type = "item",
 					name = "dect-base-" .. tile,
-					icon = "__Dectorio__/graphics/icons/base-" .. tile .. ".png",
+					icon = "__Dectorio_fx__/graphics/icons/base-" .. tile .. ".png",
 					icon_size = 64,
 					subgroup = "landscaping-earthworks",
 					order = "a[" .. _ .. "base-" .. tile .. "]",
@@ -158,7 +158,7 @@ if DECT.ENABLED["lawnmower"] then
 			{
 				type = "selection-tool",
 				name = "dect-lawnmower",
-				icon = "__Dectorio__/graphics/icons/lawnmower.png",
+				icon = "__Dectorio_fx__/graphics/icons/lawnmower.png",
 				icon_size = 64,
 				icon_mipmaps = 1,
 				stack_size = 1,
@@ -184,8 +184,8 @@ if DECT.ENABLED["lawnmower"] then
 				type = "sound",
 				name = "dect-lawnmower",
 				variations = {
-					{filename = "__Dectorio__/sound/lawnmower-01.ogg", volume = 0.9},
-					{filename = "__Dectorio__/sound/lawnmower-02.ogg", volume = 1}
+					{filename = "__Dectorio_fx__/sound/lawnmower-01.ogg", volume = 0.9},
+					{filename = "__Dectorio_fx__/sound/lawnmower-02.ogg", volume = 1}
 				}
 			}
 		}

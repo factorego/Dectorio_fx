@@ -13,7 +13,7 @@ if DECT.ENABLED["walls"] then
 			{
 				type = "wall",
 				name = "stone-wall",
-				icon = "__Dectorio__/graphics/icons/stone-brick-wall.png",
+				icon = "__Dectorio_fx__/graphics/icons/stone-brick-wall.png",
 				icon_size = 64,
 				icon_mipmaps = 1,
 				flags = {"placeable-neutral", "player-creation"},
@@ -67,7 +67,7 @@ if DECT.ENABLED["walls"] then
 					single = {
 						layers = {
 							{
-								filename = "__Dectorio__/graphics/entity/stone-brick-wall/wall-single.png",
+								filename = "__Dectorio_fx__/graphics/entity/stone-brick-wall/wall-single.png",
 								priority = "extra-high",
 								width = 32,
 								height = 46,
@@ -75,7 +75,7 @@ if DECT.ENABLED["walls"] then
 								line_length = 2,
 								shift = util.by_pixel(0, -6),
 								hr_version = {
-									filename = "__Dectorio__/graphics/entity/stone-brick-wall/hr-wall-single.png",
+									filename = "__Dectorio_fx__/graphics/entity/stone-brick-wall/hr-wall-single.png",
 									priority = "extra-high",
 									width = 64,
 									height = 86,
@@ -109,7 +109,7 @@ if DECT.ENABLED["walls"] then
 					straight_vertical = {
 						layers = {
 							{
-								filename = "__Dectorio__/graphics/entity/stone-brick-wall/wall-vertical.png",
+								filename = "__Dectorio_fx__/graphics/entity/stone-brick-wall/wall-vertical.png",
 								priority = "extra-high",
 								width = 32,
 								height = 68,
@@ -117,7 +117,7 @@ if DECT.ENABLED["walls"] then
 								line_length = 5,
 								shift = util.by_pixel(0, 8),
 								hr_version = {
-									filename = "__Dectorio__/graphics/entity/stone-brick-wall/hr-wall-vertical.png",
+									filename = "__Dectorio_fx__/graphics/entity/stone-brick-wall/hr-wall-vertical.png",
 									priority = "extra-high",
 									width = 64,
 									height = 134,
@@ -151,7 +151,7 @@ if DECT.ENABLED["walls"] then
 					straight_horizontal = {
 						layers = {
 							{
-								filename = "__Dectorio__/graphics/entity/stone-brick-wall/wall-horizontal.png",
+								filename = "__Dectorio_fx__/graphics/entity/stone-brick-wall/wall-horizontal.png",
 								priority = "extra-high",
 								width = 32,
 								height = 50,
@@ -159,7 +159,7 @@ if DECT.ENABLED["walls"] then
 								line_length = 6,
 								shift = util.by_pixel(0, -4),
 								hr_version = {
-									filename = "__Dectorio__/graphics/entity/stone-brick-wall/hr-wall-horizontal.png",
+									filename = "__Dectorio_fx__/graphics/entity/stone-brick-wall/hr-wall-horizontal.png",
 									priority = "extra-high",
 									width = 64,
 									height = 92,
@@ -193,7 +193,7 @@ if DECT.ENABLED["walls"] then
 					corner_right_down = {
 						layers = {
 							{
-								filename = "__Dectorio__/graphics/entity/stone-brick-wall/wall-corner-right.png",
+								filename = "__Dectorio_fx__/graphics/entity/stone-brick-wall/wall-corner-right.png",
 								priority = "extra-high",
 								width = 32,
 								height = 64,
@@ -201,7 +201,7 @@ if DECT.ENABLED["walls"] then
 								line_length = 2,
 								shift = util.by_pixel(0, 6),
 								hr_version = {
-									filename = "__Dectorio__/graphics/entity/stone-brick-wall/hr-wall-corner-right.png",
+									filename = "__Dectorio_fx__/graphics/entity/stone-brick-wall/hr-wall-corner-right.png",
 									priority = "extra-high",
 									width = 64,
 									height = 128,
@@ -235,7 +235,7 @@ if DECT.ENABLED["walls"] then
 					corner_left_down = {
 						layers = {
 							{
-								filename = "__Dectorio__/graphics/entity/stone-brick-wall/wall-corner-left.png",
+								filename = "__Dectorio_fx__/graphics/entity/stone-brick-wall/wall-corner-left.png",
 								priority = "extra-high",
 								width = 32,
 								height = 68,
@@ -243,7 +243,7 @@ if DECT.ENABLED["walls"] then
 								line_length = 2,
 								shift = util.by_pixel(0, 6),
 								hr_version = {
-									filename = "__Dectorio__/graphics/entity/stone-brick-wall/hr-wall-corner-left.png",
+									filename = "__Dectorio_fx__/graphics/entity/stone-brick-wall/hr-wall-corner-left.png",
 									priority = "extra-high",
 									width = 64,
 									height = 134,
@@ -277,7 +277,7 @@ if DECT.ENABLED["walls"] then
 					t_up = {
 						layers = {
 							{
-								filename = "__Dectorio__/graphics/entity/stone-brick-wall/wall-t.png",
+								filename = "__Dectorio_fx__/graphics/entity/stone-brick-wall/wall-t.png",
 								priority = "extra-high",
 								width = 32,
 								height = 68,
@@ -285,7 +285,7 @@ if DECT.ENABLED["walls"] then
 								line_length = 4,
 								shift = util.by_pixel(0, 6),
 								hr_version = {
-									filename = "__Dectorio__/graphics/entity/stone-brick-wall/hr-wall-t.png",
+									filename = "__Dectorio_fx__/graphics/entity/stone-brick-wall/hr-wall-t.png",
 									priority = "extra-high",
 									width = 64,
 									height = 134,
@@ -319,7 +319,7 @@ if DECT.ENABLED["walls"] then
 					ending_right = {
 						layers = {
 							{
-								filename = "__Dectorio__/graphics/entity/stone-brick-wall/wall-ending-right.png",
+								filename = "__Dectorio_fx__/graphics/entity/stone-brick-wall/wall-ending-right.png",
 								priority = "extra-high",
 								width = 32,
 								height = 48,
@@ -327,7 +327,7 @@ if DECT.ENABLED["walls"] then
 								line_length = 2,
 								shift = util.by_pixel(0, -4),
 								hr_version = {
-									filename = "__Dectorio__/graphics/entity/stone-brick-wall/hr-wall-ending-right.png",
+									filename = "__Dectorio_fx__/graphics/entity/stone-brick-wall/hr-wall-ending-right.png",
 									priority = "extra-high",
 									width = 64,
 									height = 92,
@@ -361,7 +361,7 @@ if DECT.ENABLED["walls"] then
 					ending_left = {
 						layers = {
 							{
-								filename = "__Dectorio__/graphics/entity/stone-brick-wall/wall-ending-left.png",
+								filename = "__Dectorio_fx__/graphics/entity/stone-brick-wall/wall-ending-left.png",
 								priority = "extra-high",
 								width = 32,
 								height = 48,
@@ -369,7 +369,7 @@ if DECT.ENABLED["walls"] then
 								line_length = 2,
 								shift = util.by_pixel(0, -4),
 								hr_version = {
-									filename = "__Dectorio__/graphics/entity/stone-brick-wall/hr-wall-ending-left.png",
+									filename = "__Dectorio_fx__/graphics/entity/stone-brick-wall/hr-wall-ending-left.png",
 									priority = "extra-high",
 									width = 64,
 									height = 92,
@@ -401,7 +401,7 @@ if DECT.ENABLED["walls"] then
 						}
 					},
 					filling = {
-						filename = "__Dectorio__/graphics/entity/stone-brick-wall/wall-filling.png",
+						filename = "__Dectorio_fx__/graphics/entity/stone-brick-wall/wall-filling.png",
 						priority = "extra-high",
 						width = 24,
 						height = 30,
@@ -409,7 +409,7 @@ if DECT.ENABLED["walls"] then
 						line_length = 8,
 						shift = util.by_pixel(0, -2),
 						hr_version = {
-							filename = "__Dectorio__/graphics/entity/stone-brick-wall/hr-wall-filling.png",
+							filename = "__Dectorio_fx__/graphics/entity/stone-brick-wall/hr-wall-filling.png",
 							priority = "extra-high",
 							width = 48,
 							height = 56,
@@ -422,13 +422,13 @@ if DECT.ENABLED["walls"] then
 					water_connection_patch = {
 						sheets = {
 							{
-								filename = "__Dectorio__/graphics/entity/stone-brick-wall/wall-patch.png",
+								filename = "__Dectorio_fx__/graphics/entity/stone-brick-wall/wall-patch.png",
 								priority = "extra-high",
 								width = 58,
 								height = 64,
 								shift = util.by_pixel(0, -2),
 								hr_version = {
-									filename = "__Dectorio__/graphics/entity/stone-brick-wall/hr-wall-patch.png",
+									filename = "__Dectorio_fx__/graphics/entity/stone-brick-wall/hr-wall-patch.png",
 									priority = "extra-high",
 									width = 116,
 									height = 128,
@@ -458,13 +458,13 @@ if DECT.ENABLED["walls"] then
 					gate_connection_patch = {
 						sheets = {
 							{
-								filename = "__Dectorio__/graphics/entity/stone-brick-wall/wall-gate.png",
+								filename = "__Dectorio_fx__/graphics/entity/stone-brick-wall/wall-gate.png",
 								priority = "extra-high",
 								width = 42,
 								height = 56,
 								shift = util.by_pixel(0, -8),
 								hr_version = {
-									filename = "__Dectorio__/graphics/entity/stone-brick-wall/hr-wall-gate.png",
+									filename = "__Dectorio_fx__/graphics/entity/stone-brick-wall/hr-wall-gate.png",
 									priority = "extra-high",
 									width = 82,
 									height = 108,
@@ -568,7 +568,7 @@ if DECT.ENABLED["walls"] then
 			{
 				type = "wall",
 				name = "dect-chain-wall",
-				icon = "__Dectorio__/graphics/icons/chain-wall.png",
+				icon = "__Dectorio_fx__/graphics/icons/chain-wall.png",
 				icon_size = 32,
 				icon_mipmaps = 1,
 				flags = {"placeable-neutral", "player-creation"},
@@ -618,14 +618,14 @@ if DECT.ENABLED["walls"] then
 					single = {
 						layers = {
 							{
-								filename = "__Dectorio__/graphics/entity/chain-wall/wall-single.png",
+								filename = "__Dectorio_fx__/graphics/entity/chain-wall/wall-single.png",
 								priority = "extra-high",
 								width = 22,
 								height = 42,
 								shift = {0, -0.15625}
 							},
 							{
-								filename = "__Dectorio__/graphics/entity/chain-wall/wall-single-shadow.png",
+								filename = "__Dectorio_fx__/graphics/entity/chain-wall/wall-single-shadow.png",
 								priority = "extra-high",
 								width = 47,
 								height = 32,
@@ -638,14 +638,14 @@ if DECT.ENABLED["walls"] then
 						{
 							layers = {
 								{
-									filename = "__Dectorio__/graphics/entity/chain-wall/wall-straight-vertical-1.png",
+									filename = "__Dectorio_fx__/graphics/entity/chain-wall/wall-straight-vertical-1.png",
 									priority = "extra-high",
 									width = 22,
 									height = 42,
 									shift = {0, -0.15625}
 								},
 								{
-									filename = "__Dectorio__/graphics/entity/chain-wall/wall-straight-vertical-shadow.png",
+									filename = "__Dectorio_fx__/graphics/entity/chain-wall/wall-straight-vertical-shadow.png",
 									priority = "extra-high",
 									width = 47,
 									height = 60,
@@ -657,14 +657,14 @@ if DECT.ENABLED["walls"] then
 						{
 							layers = {
 								{
-									filename = "__Dectorio__/graphics/entity/chain-wall/wall-straight-vertical-2.png",
+									filename = "__Dectorio_fx__/graphics/entity/chain-wall/wall-straight-vertical-2.png",
 									priority = "extra-high",
 									width = 22,
 									height = 42,
 									shift = {0, -0.15625}
 								},
 								{
-									filename = "__Dectorio__/graphics/entity/chain-wall/wall-straight-vertical-shadow.png",
+									filename = "__Dectorio_fx__/graphics/entity/chain-wall/wall-straight-vertical-shadow.png",
 									priority = "extra-high",
 									width = 47,
 									height = 60,
@@ -676,14 +676,14 @@ if DECT.ENABLED["walls"] then
 						{
 							layers = {
 								{
-									filename = "__Dectorio__/graphics/entity/chain-wall/wall-straight-vertical-3.png",
+									filename = "__Dectorio_fx__/graphics/entity/chain-wall/wall-straight-vertical-3.png",
 									priority = "extra-high",
 									width = 22,
 									height = 42,
 									shift = {0, -0.15625}
 								},
 								{
-									filename = "__Dectorio__/graphics/entity/chain-wall/wall-straight-vertical-shadow.png",
+									filename = "__Dectorio_fx__/graphics/entity/chain-wall/wall-straight-vertical-shadow.png",
 									priority = "extra-high",
 									width = 47,
 									height = 60,
@@ -695,14 +695,14 @@ if DECT.ENABLED["walls"] then
 						{
 							layers = {
 								{
-									filename = "__Dectorio__/graphics/entity/chain-wall/wall-straight-vertical-4.png",
+									filename = "__Dectorio_fx__/graphics/entity/chain-wall/wall-straight-vertical-4.png",
 									priority = "extra-high",
 									width = 22,
 									height = 42,
 									shift = {0, -0.15625}
 								},
 								{
-									filename = "__Dectorio__/graphics/entity/chain-wall/wall-straight-vertical-shadow.png",
+									filename = "__Dectorio_fx__/graphics/entity/chain-wall/wall-straight-vertical-shadow.png",
 									priority = "extra-high",
 									width = 47,
 									height = 60,
@@ -714,14 +714,14 @@ if DECT.ENABLED["walls"] then
 						{
 							layers = {
 								{
-									filename = "__Dectorio__/graphics/entity/chain-wall/wall-straight-vertical-5.png",
+									filename = "__Dectorio_fx__/graphics/entity/chain-wall/wall-straight-vertical-5.png",
 									priority = "extra-high",
 									width = 22,
 									height = 42,
 									shift = {0, -0.15625}
 								},
 								{
-									filename = "__Dectorio__/graphics/entity/chain-wall/wall-straight-vertical-shadow.png",
+									filename = "__Dectorio_fx__/graphics/entity/chain-wall/wall-straight-vertical-shadow.png",
 									priority = "extra-high",
 									width = 47,
 									height = 60,
@@ -735,14 +735,14 @@ if DECT.ENABLED["walls"] then
 						{
 							layers = {
 								{
-									filename = "__Dectorio__/graphics/entity/chain-wall/wall-straight-horizontal-1.png",
+									filename = "__Dectorio_fx__/graphics/entity/chain-wall/wall-straight-horizontal-1.png",
 									priority = "extra-high",
 									width = 32,
 									height = 42,
 									shift = {0, -0.15625}
 								},
 								{
-									filename = "__Dectorio__/graphics/entity/chain-wall/wall-straight-horizontal-shadow.png",
+									filename = "__Dectorio_fx__/graphics/entity/chain-wall/wall-straight-horizontal-shadow.png",
 									priority = "extra-high",
 									width = 59,
 									height = 32,
@@ -754,14 +754,14 @@ if DECT.ENABLED["walls"] then
 						{
 							layers = {
 								{
-									filename = "__Dectorio__/graphics/entity/chain-wall/wall-straight-horizontal-2.png",
+									filename = "__Dectorio_fx__/graphics/entity/chain-wall/wall-straight-horizontal-2.png",
 									priority = "extra-high",
 									width = 32,
 									height = 42,
 									shift = {0, -0.15625}
 								},
 								{
-									filename = "__Dectorio__/graphics/entity/chain-wall/wall-straight-horizontal-shadow.png",
+									filename = "__Dectorio_fx__/graphics/entity/chain-wall/wall-straight-horizontal-shadow.png",
 									priority = "extra-high",
 									width = 59,
 									height = 32,
@@ -773,14 +773,14 @@ if DECT.ENABLED["walls"] then
 						{
 							layers = {
 								{
-									filename = "__Dectorio__/graphics/entity/chain-wall/wall-straight-horizontal-3.png",
+									filename = "__Dectorio_fx__/graphics/entity/chain-wall/wall-straight-horizontal-3.png",
 									priority = "extra-high",
 									width = 32,
 									height = 42,
 									shift = {0, -0.15625}
 								},
 								{
-									filename = "__Dectorio__/graphics/entity/chain-wall/wall-straight-horizontal-shadow.png",
+									filename = "__Dectorio_fx__/graphics/entity/chain-wall/wall-straight-horizontal-shadow.png",
 									priority = "extra-high",
 									width = 59,
 									height = 32,
@@ -792,14 +792,14 @@ if DECT.ENABLED["walls"] then
 						{
 							layers = {
 								{
-									filename = "__Dectorio__/graphics/entity/chain-wall/wall-straight-horizontal-4.png",
+									filename = "__Dectorio_fx__/graphics/entity/chain-wall/wall-straight-horizontal-4.png",
 									priority = "extra-high",
 									width = 32,
 									height = 42,
 									shift = {0, -0.15625}
 								},
 								{
-									filename = "__Dectorio__/graphics/entity/chain-wall/wall-straight-horizontal-shadow.png",
+									filename = "__Dectorio_fx__/graphics/entity/chain-wall/wall-straight-horizontal-shadow.png",
 									priority = "extra-high",
 									width = 59,
 									height = 32,
@@ -811,14 +811,14 @@ if DECT.ENABLED["walls"] then
 						{
 							layers = {
 								{
-									filename = "__Dectorio__/graphics/entity/chain-wall/wall-straight-horizontal-5.png",
+									filename = "__Dectorio_fx__/graphics/entity/chain-wall/wall-straight-horizontal-5.png",
 									priority = "extra-high",
 									width = 32,
 									height = 42,
 									shift = {0, -0.15625}
 								},
 								{
-									filename = "__Dectorio__/graphics/entity/chain-wall/wall-straight-horizontal-shadow.png",
+									filename = "__Dectorio_fx__/graphics/entity/chain-wall/wall-straight-horizontal-shadow.png",
 									priority = "extra-high",
 									width = 59,
 									height = 32,
@@ -831,14 +831,14 @@ if DECT.ENABLED["walls"] then
 					corner_right_down = {
 						layers = {
 							{
-								filename = "__Dectorio__/graphics/entity/chain-wall/wall-corner-right-down.png",
+								filename = "__Dectorio_fx__/graphics/entity/chain-wall/wall-corner-right-down.png",
 								priority = "extra-high",
 								width = 27,
 								height = 42,
 								shift = {0.078125, -0.15625}
 							},
 							{
-								filename = "__Dectorio__/graphics/entity/chain-wall/wall-corner-right-down-shadow.png",
+								filename = "__Dectorio_fx__/graphics/entity/chain-wall/wall-corner-right-down-shadow.png",
 								priority = "extra-high",
 								width = 53,
 								height = 61,
@@ -850,14 +850,14 @@ if DECT.ENABLED["walls"] then
 					corner_left_down = {
 						layers = {
 							{
-								filename = "__Dectorio__/graphics/entity/chain-wall/wall-corner-left-down.png",
+								filename = "__Dectorio_fx__/graphics/entity/chain-wall/wall-corner-left-down.png",
 								priority = "extra-high",
 								width = 27,
 								height = 42,
 								shift = {-0.078125, -0.15625}
 							},
 							{
-								filename = "__Dectorio__/graphics/entity/chain-wall/wall-corner-left-down-shadow.png",
+								filename = "__Dectorio_fx__/graphics/entity/chain-wall/wall-corner-left-down-shadow.png",
 								priority = "extra-high",
 								width = 53,
 								height = 60,
@@ -869,14 +869,14 @@ if DECT.ENABLED["walls"] then
 					t_up = {
 						layers = {
 							{
-								filename = "__Dectorio__/graphics/entity/chain-wall/wall-t-down.png",
+								filename = "__Dectorio_fx__/graphics/entity/chain-wall/wall-t-down.png",
 								priority = "extra-high",
 								width = 32,
 								height = 42,
 								shift = {0, -0.15625}
 							},
 							{
-								filename = "__Dectorio__/graphics/entity/chain-wall/wall-t-down-shadow.png",
+								filename = "__Dectorio_fx__/graphics/entity/chain-wall/wall-t-down-shadow.png",
 								priority = "extra-high",
 								width = 71,
 								height = 61,
@@ -888,14 +888,14 @@ if DECT.ENABLED["walls"] then
 					ending_right = {
 						layers = {
 							{
-								filename = "__Dectorio__/graphics/entity/chain-wall/wall-ending-right.png",
+								filename = "__Dectorio_fx__/graphics/entity/chain-wall/wall-ending-right.png",
 								priority = "extra-high",
 								width = 27,
 								height = 42,
 								shift = {0.078125, -0.15625}
 							},
 							{
-								filename = "__Dectorio__/graphics/entity/chain-wall/wall-ending-right-shadow.png",
+								filename = "__Dectorio_fx__/graphics/entity/chain-wall/wall-ending-right-shadow.png",
 								priority = "extra-high",
 								width = 53,
 								height = 32,
@@ -907,14 +907,14 @@ if DECT.ENABLED["walls"] then
 					ending_left = {
 						layers = {
 							{
-								filename = "__Dectorio__/graphics/entity/chain-wall/wall-ending-left.png",
+								filename = "__Dectorio_fx__/graphics/entity/chain-wall/wall-ending-left.png",
 								priority = "extra-high",
 								width = 27,
 								height = 42,
 								shift = {-0.078125, -0.15625}
 							},
 							{
-								filename = "__Dectorio__/graphics/entity/chain-wall/wall-ending-left-shadow.png",
+								filename = "__Dectorio_fx__/graphics/entity/chain-wall/wall-ending-left-shadow.png",
 								priority = "extra-high",
 								width = 53,
 								height = 32,
@@ -926,7 +926,7 @@ if DECT.ENABLED["walls"] then
 					gate_connection_patch = {
 						sheets = {
 							{
-								filename = "__Dectorio__/graphics/entity/chain-wall/wall-gate.png",
+								filename = "__Dectorio_fx__/graphics/entity/chain-wall/wall-gate.png",
 								priority = "extra-high",
 								width = 42,
 								height = 56,
@@ -955,7 +955,7 @@ if DECT.ENABLED["walls"] then
 			{
 				type = "wall",
 				name = "dect-wood-wall",
-				icon = "__Dectorio__/graphics/icons/wood-wall.png",
+				icon = "__Dectorio_fx__/graphics/icons/wood-wall.png",
 				icon_size = 32,
 				icon_mipmaps = 1,
 				flags = {"placeable-neutral", "player-creation"},
@@ -967,7 +967,7 @@ if DECT.ENABLED["walls"] then
 				repair_speed_modifier = 2,
 				corpse = "wall-remnants",
 				repair_sound = {filename = "__base__/sound/manual-repair-simple.ogg"},
-				mined_sound = {filename = "__Dectorio__/sound/deconstruct-wood.ogg"},
+				mined_sound = {filename = "__Dectorio_fx__/sound/deconstruct-wood.ogg"},
 				vehicle_impact_sound = {filename = "__base__/sound/car-wood-impact.ogg", volume = 1.0},
 				connected_gate_visualization = {
 					filename = "__core__/graphics/arrows/underground-lines.png",
@@ -1005,14 +1005,14 @@ if DECT.ENABLED["walls"] then
 					single = {
 						layers = {
 							{
-								filename = "__Dectorio__/graphics/entity/wood-wall/wall-single.png",
+								filename = "__Dectorio_fx__/graphics/entity/wood-wall/wall-single.png",
 								priority = "extra-high",
 								width = 22,
 								height = 42,
 								shift = {0, -0.15625}
 							},
 							{
-								filename = "__Dectorio__/graphics/entity/wood-wall/wall-single-shadow.png",
+								filename = "__Dectorio_fx__/graphics/entity/wood-wall/wall-single-shadow.png",
 								priority = "extra-high",
 								width = 47,
 								height = 32,
@@ -1025,14 +1025,14 @@ if DECT.ENABLED["walls"] then
 						{
 							layers = {
 								{
-									filename = "__Dectorio__/graphics/entity/wood-wall/wall-straight-vertical-1.png",
+									filename = "__Dectorio_fx__/graphics/entity/wood-wall/wall-straight-vertical-1.png",
 									priority = "extra-high",
 									width = 22,
 									height = 42,
 									shift = {0, -0.15625}
 								},
 								{
-									filename = "__Dectorio__/graphics/entity/wood-wall/wall-straight-vertical-shadow.png",
+									filename = "__Dectorio_fx__/graphics/entity/wood-wall/wall-straight-vertical-shadow.png",
 									priority = "extra-high",
 									width = 47,
 									height = 60,
@@ -1044,14 +1044,14 @@ if DECT.ENABLED["walls"] then
 						{
 							layers = {
 								{
-									filename = "__Dectorio__/graphics/entity/wood-wall/wall-straight-vertical-2.png",
+									filename = "__Dectorio_fx__/graphics/entity/wood-wall/wall-straight-vertical-2.png",
 									priority = "extra-high",
 									width = 22,
 									height = 42,
 									shift = {0, -0.15625}
 								},
 								{
-									filename = "__Dectorio__/graphics/entity/wood-wall/wall-straight-vertical-shadow.png",
+									filename = "__Dectorio_fx__/graphics/entity/wood-wall/wall-straight-vertical-shadow.png",
 									priority = "extra-high",
 									width = 47,
 									height = 60,
@@ -1063,14 +1063,14 @@ if DECT.ENABLED["walls"] then
 						{
 							layers = {
 								{
-									filename = "__Dectorio__/graphics/entity/wood-wall/wall-straight-vertical-3.png",
+									filename = "__Dectorio_fx__/graphics/entity/wood-wall/wall-straight-vertical-3.png",
 									priority = "extra-high",
 									width = 22,
 									height = 42,
 									shift = {0, -0.15625}
 								},
 								{
-									filename = "__Dectorio__/graphics/entity/wood-wall/wall-straight-vertical-shadow.png",
+									filename = "__Dectorio_fx__/graphics/entity/wood-wall/wall-straight-vertical-shadow.png",
 									priority = "extra-high",
 									width = 47,
 									height = 60,
@@ -1084,14 +1084,14 @@ if DECT.ENABLED["walls"] then
 						{
 							layers = {
 								{
-									filename = "__Dectorio__/graphics/entity/wood-wall/wall-straight-horizontal-1.png",
+									filename = "__Dectorio_fx__/graphics/entity/wood-wall/wall-straight-horizontal-1.png",
 									priority = "extra-high",
 									width = 32,
 									height = 42,
 									shift = {0, -0.15625}
 								},
 								{
-									filename = "__Dectorio__/graphics/entity/wood-wall/wall-straight-horizontal-shadow.png",
+									filename = "__Dectorio_fx__/graphics/entity/wood-wall/wall-straight-horizontal-shadow.png",
 									priority = "extra-high",
 									width = 59,
 									height = 32,
@@ -1103,14 +1103,14 @@ if DECT.ENABLED["walls"] then
 						{
 							layers = {
 								{
-									filename = "__Dectorio__/graphics/entity/wood-wall/wall-straight-horizontal-2.png",
+									filename = "__Dectorio_fx__/graphics/entity/wood-wall/wall-straight-horizontal-2.png",
 									priority = "extra-high",
 									width = 32,
 									height = 42,
 									shift = {0, -0.15625}
 								},
 								{
-									filename = "__Dectorio__/graphics/entity/wood-wall/wall-straight-horizontal-shadow.png",
+									filename = "__Dectorio_fx__/graphics/entity/wood-wall/wall-straight-horizontal-shadow.png",
 									priority = "extra-high",
 									width = 59,
 									height = 32,
@@ -1122,14 +1122,14 @@ if DECT.ENABLED["walls"] then
 						{
 							layers = {
 								{
-									filename = "__Dectorio__/graphics/entity/wood-wall/wall-straight-horizontal-3.png",
+									filename = "__Dectorio_fx__/graphics/entity/wood-wall/wall-straight-horizontal-3.png",
 									priority = "extra-high",
 									width = 32,
 									height = 42,
 									shift = {0, -0.15625}
 								},
 								{
-									filename = "__Dectorio__/graphics/entity/wood-wall/wall-straight-horizontal-shadow.png",
+									filename = "__Dectorio_fx__/graphics/entity/wood-wall/wall-straight-horizontal-shadow.png",
 									priority = "extra-high",
 									width = 59,
 									height = 32,
@@ -1141,14 +1141,14 @@ if DECT.ENABLED["walls"] then
 						{
 							layers = {
 								{
-									filename = "__Dectorio__/graphics/entity/wood-wall/wall-straight-horizontal-4.png",
+									filename = "__Dectorio_fx__/graphics/entity/wood-wall/wall-straight-horizontal-4.png",
 									priority = "extra-high",
 									width = 32,
 									height = 42,
 									shift = {0, -0.15625}
 								},
 								{
-									filename = "__Dectorio__/graphics/entity/wood-wall/wall-straight-horizontal-shadow.png",
+									filename = "__Dectorio_fx__/graphics/entity/wood-wall/wall-straight-horizontal-shadow.png",
 									priority = "extra-high",
 									width = 59,
 									height = 32,
@@ -1161,14 +1161,14 @@ if DECT.ENABLED["walls"] then
 					corner_right_down = {
 						layers = {
 							{
-								filename = "__Dectorio__/graphics/entity/wood-wall/wall-corner-right-down.png",
+								filename = "__Dectorio_fx__/graphics/entity/wood-wall/wall-corner-right-down.png",
 								priority = "extra-high",
 								width = 27,
 								height = 42,
 								shift = {0.078125, -0.15625}
 							},
 							{
-								filename = "__Dectorio__/graphics/entity/wood-wall/wall-corner-right-down-shadow.png",
+								filename = "__Dectorio_fx__/graphics/entity/wood-wall/wall-corner-right-down-shadow.png",
 								priority = "extra-high",
 								width = 53,
 								height = 61,
@@ -1180,14 +1180,14 @@ if DECT.ENABLED["walls"] then
 					corner_left_down = {
 						layers = {
 							{
-								filename = "__Dectorio__/graphics/entity/wood-wall/wall-corner-left-down.png",
+								filename = "__Dectorio_fx__/graphics/entity/wood-wall/wall-corner-left-down.png",
 								priority = "extra-high",
 								width = 27,
 								height = 42,
 								shift = {-0.078125, -0.15625}
 							},
 							{
-								filename = "__Dectorio__/graphics/entity/wood-wall/wall-corner-left-down-shadow.png",
+								filename = "__Dectorio_fx__/graphics/entity/wood-wall/wall-corner-left-down-shadow.png",
 								priority = "extra-high",
 								width = 53,
 								height = 60,
@@ -1199,14 +1199,14 @@ if DECT.ENABLED["walls"] then
 					t_up = {
 						layers = {
 							{
-								filename = "__Dectorio__/graphics/entity/wood-wall/wall-t-down.png",
+								filename = "__Dectorio_fx__/graphics/entity/wood-wall/wall-t-down.png",
 								priority = "extra-high",
 								width = 32,
 								height = 42,
 								shift = {0, -0.15625}
 							},
 							{
-								filename = "__Dectorio__/graphics/entity/wood-wall/wall-t-down-shadow.png",
+								filename = "__Dectorio_fx__/graphics/entity/wood-wall/wall-t-down-shadow.png",
 								priority = "extra-high",
 								width = 71,
 								height = 61,
@@ -1218,14 +1218,14 @@ if DECT.ENABLED["walls"] then
 					ending_right = {
 						layers = {
 							{
-								filename = "__Dectorio__/graphics/entity/wood-wall/wall-ending-right.png",
+								filename = "__Dectorio_fx__/graphics/entity/wood-wall/wall-ending-right.png",
 								priority = "extra-high",
 								width = 27,
 								height = 42,
 								shift = {0.078125, -0.15625}
 							},
 							{
-								filename = "__Dectorio__/graphics/entity/wood-wall/wall-ending-right-shadow.png",
+								filename = "__Dectorio_fx__/graphics/entity/wood-wall/wall-ending-right-shadow.png",
 								priority = "extra-high",
 								width = 53,
 								height = 32,
@@ -1237,14 +1237,14 @@ if DECT.ENABLED["walls"] then
 					ending_left = {
 						layers = {
 							{
-								filename = "__Dectorio__/graphics/entity/wood-wall/wall-ending-left.png",
+								filename = "__Dectorio_fx__/graphics/entity/wood-wall/wall-ending-left.png",
 								priority = "extra-high",
 								width = 27,
 								height = 42,
 								shift = {-0.078125, -0.15625}
 							},
 							{
-								filename = "__Dectorio__/graphics/entity/wood-wall/wall-ending-left-shadow.png",
+								filename = "__Dectorio_fx__/graphics/entity/wood-wall/wall-ending-left-shadow.png",
 								priority = "extra-high",
 								width = 53,
 								height = 32,
@@ -1256,7 +1256,7 @@ if DECT.ENABLED["walls"] then
 					gate_connection_patch = {
 						sheets = {
 							{
-								filename = "__Dectorio__/graphics/entity/wood-wall/wall-gate.png",
+								filename = "__Dectorio_fx__/graphics/entity/wood-wall/wall-gate.png",
 								priority = "extra-high",
 								width = 42,
 								height = 56,
@@ -1315,14 +1315,14 @@ if DECT.ENABLED["walls"] then
 				vertical_animation = {
 					layers = {
 						{
-							filename = "__Dectorio__/graphics/entity/stone-gate/gate-vertical.png",
+							filename = "__Dectorio_fx__/graphics/entity/stone-gate/gate-vertical.png",
 							line_length = 8,
 							width = 39,
 							height = 60,
 							frame_count = 16,
 							shift = util.by_pixel(0, -14),
 							hr_version = {
-								filename = "__Dectorio__/graphics/entity/stone-gate/hr-gate-vertical.png",
+								filename = "__Dectorio_fx__/graphics/entity/stone-gate/hr-gate-vertical.png",
 								line_length = 8,
 								width = 78,
 								height = 120,
@@ -1355,14 +1355,14 @@ if DECT.ENABLED["walls"] then
 				horizontal_animation = {
 					layers = {
 						{
-							filename = "__Dectorio__/graphics/entity/stone-gate/gate-horizontal.png",
+							filename = "__Dectorio_fx__/graphics/entity/stone-gate/gate-horizontal.png",
 							line_length = 8,
 							width = 33,
 							height = 45,
 							frame_count = 16,
 							shift = util.by_pixel(0, -4),
 							hr_version = {
-								filename = "__Dectorio__/graphics/entity/stone-gate/hr-gate-horizontal.png",
+								filename = "__Dectorio_fx__/graphics/entity/stone-gate/hr-gate-horizontal.png",
 								line_length = 8,
 								width = 66,
 								height = 90,
@@ -1395,14 +1395,14 @@ if DECT.ENABLED["walls"] then
 				horizontal_rail_animation_left = {
 					layers = {
 						{
-							filename = "__Dectorio__/graphics/entity/stone-gate/gate-rail-horizontal-left.png",
+							filename = "__Dectorio_fx__/graphics/entity/stone-gate/gate-rail-horizontal-left.png",
 							line_length = 8,
 							width = 33,
 							height = 37,
 							frame_count = 16,
 							shift = util.by_pixel(0, -8),
 							hr_version = {
-								filename = "__Dectorio__/graphics/entity/stone-gate/hr-gate-rail-horizontal-left.png",
+								filename = "__Dectorio_fx__/graphics/entity/stone-gate/hr-gate-rail-horizontal-left.png",
 								line_length = 8,
 								width = 66,
 								height = 74,
@@ -1435,14 +1435,14 @@ if DECT.ENABLED["walls"] then
 				horizontal_rail_animation_right = {
 					layers = {
 						{
-							filename = "__Dectorio__/graphics/entity/stone-gate/gate-rail-horizontal-right.png",
+							filename = "__Dectorio_fx__/graphics/entity/stone-gate/gate-rail-horizontal-right.png",
 							line_length = 8,
 							width = 33,
 							height = 37,
 							frame_count = 16,
 							shift = util.by_pixel(0, -8),
 							hr_version = {
-								filename = "__Dectorio__/graphics/entity/stone-gate/hr-gate-rail-horizontal-right.png",
+								filename = "__Dectorio_fx__/graphics/entity/stone-gate/hr-gate-rail-horizontal-right.png",
 								line_length = 8,
 								width = 66,
 								height = 74,
@@ -1475,14 +1475,14 @@ if DECT.ENABLED["walls"] then
 				vertical_rail_animation_left = {
 					layers = {
 						{
-							filename = "__Dectorio__/graphics/entity/stone-gate/gate-rail-vertical-left.png",
+							filename = "__Dectorio_fx__/graphics/entity/stone-gate/gate-rail-vertical-left.png",
 							line_length = 8,
 							width = 21,
 							height = 59,
 							frame_count = 16,
 							shift = util.by_pixel(0, -14),
 							hr_version = {
-								filename = "__Dectorio__/graphics/entity/stone-gate/hr-gate-rail-vertical-left.png",
+								filename = "__Dectorio_fx__/graphics/entity/stone-gate/hr-gate-rail-vertical-left.png",
 								line_length = 8,
 								width = 42,
 								height = 118,
@@ -1515,14 +1515,14 @@ if DECT.ENABLED["walls"] then
 				vertical_rail_animation_right = {
 					layers = {
 						{
-							filename = "__Dectorio__/graphics/entity/stone-gate/gate-rail-vertical-right.png",
+							filename = "__Dectorio_fx__/graphics/entity/stone-gate/gate-rail-vertical-right.png",
 							line_length = 8,
 							width = 21,
 							height = 59,
 							frame_count = 16,
 							shift = util.by_pixel(0, -14),
 							hr_version = {
-								filename = "__Dectorio__/graphics/entity/stone-gate/hr-gate-rail-vertical-right.png",
+								filename = "__Dectorio_fx__/graphics/entity/stone-gate/hr-gate-rail-vertical-right.png",
 								line_length = 8,
 								width = 42,
 								height = 118,
@@ -1589,14 +1589,14 @@ if DECT.ENABLED["walls"] then
 				wall_patch = {
 					layers = {
 						{
-							filename = "__Dectorio__/graphics/entity/stone-gate/gate-wall-patch.png",
+							filename = "__Dectorio_fx__/graphics/entity/stone-gate/gate-wall-patch.png",
 							line_length = 8,
 							width = 35,
 							height = 47,
 							frame_count = 16,
 							shift = util.by_pixel(0, 12),
 							hr_version = {
-								filename = "__Dectorio__/graphics/entity/stone-gate/hr-gate-wall-patch.png",
+								filename = "__Dectorio_fx__/graphics/entity/stone-gate/hr-gate-wall-patch.png",
 								line_length = 8,
 								width = 70,
 								height = 94,

@@ -18,7 +18,7 @@ if DECT.ENABLED["decoratives"] then
 			{
 				type = "item",
 				name = "dect-traffic-bollard",
-				icon = "__Dectorio__/graphics/icons/traffic-bollard.png",
+				icon = "__Dectorio_fx__/graphics/icons/traffic-bollard.png",
 				icon_size = 64,
 				icon_mipmaps = 1,
 				subgroup = "decoratives",

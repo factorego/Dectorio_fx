@@ -29,18 +29,18 @@ local function tile_variants(set, variant)
 	return {
 		main = {
 			{
-				picture = "__Dectorio__/graphics/terrain/" .. set .. "/" .. variant .. "/" .. set .. "1.png",
+				picture = "__Dectorio_fx__/graphics/terrain/" .. set .. "/" .. variant .. "/" .. set .. "1.png",
 				count = 16,
 				size = 1
 			},
 			{
-				picture = "__Dectorio__/graphics/terrain/" .. set .. "/" .. variant .. "/" .. set .. "2.png",
+				picture = "__Dectorio_fx__/graphics/terrain/" .. set .. "/" .. variant .. "/" .. set .. "2.png",
 				count = 4,
 				size = 2,
 				probability = 0.39
 			},
 			{
-				picture = "__Dectorio__/graphics/terrain/" .. set .. "/" .. variant .. "/" .. set .. "4.png",
+				picture = "__Dectorio_fx__/graphics/terrain/" .. set .. "/" .. variant .. "/" .. set .. "4.png",
 				count = 4,
 				size = 4,
 				probability = 1
@@ -51,23 +51,23 @@ local function tile_variants(set, variant)
 				overlay_layout =
 					{
 					inner_corner = {
-						spritesheet = "__Dectorio__/graphics/terrain/" .. set .. "/" .. variant .. "/" .. set .. "-inner-corner.png",
+						spritesheet = "__Dectorio_fx__/graphics/terrain/" .. set .. "/" .. variant .. "/" .. set .. "-inner-corner.png",
 						count = 8
 					},
 					outer_corner = {
-						spritesheet = "__Dectorio__/graphics/terrain/" .. set .. "/" .. variant .. "/" .. set .. "-outer-corner.png",
+						spritesheet = "__Dectorio_fx__/graphics/terrain/" .. set .. "/" .. variant .. "/" .. set .. "-outer-corner.png",
 						count = 1
 					},
 					side = {
-						spritesheet = "__Dectorio__/graphics/terrain/" .. set .. "/" .. variant .. "/" .. set .. "-side.png",
+						spritesheet = "__Dectorio_fx__/graphics/terrain/" .. set .. "/" .. variant .. "/" .. set .. "-side.png",
 						count = 8
 					},
 					u_transition = {
-						spritesheet = "__Dectorio__/graphics/terrain/" .. set .. "/" .. variant .. "/" .. set .. "-u.png",
+						spritesheet = "__Dectorio_fx__/graphics/terrain/" .. set .. "/" .. variant .. "/" .. set .. "-u.png",
 						count = 8
 					},
 					o_transition = {
-						spritesheet = "__Dectorio__/graphics/terrain/" .. set .. "/" .. variant .. "/" .. set .. "-o.png",
+						spritesheet = "__Dectorio_fx__/graphics/terrain/" .. set .. "/" .. variant .. "/" .. set .. "-o.png",
 						count = 1
 					}
 				}
@@ -90,10 +90,10 @@ local function tile_variants_material(set, variant)
 				}
 		},
 		material_background = {
-			picture = "__Dectorio__/graphics/terrain/" .. set .. "/" .. variant .. "/" .. set .. ".png",
+			picture = "__Dectorio_fx__/graphics/terrain/" .. set .. "/" .. variant .. "/" .. set .. ".png",
 			count = 8,
 			hr_version = {
-				picture = "__Dectorio__/graphics/terrain/" .. set .. "/" .. variant .. "/hr-" .. set .. ".png",
+				picture = "__Dectorio_fx__/graphics/terrain/" .. set .. "/" .. variant .. "/hr-" .. set .. ".png",
 				count = 8,
 				scale = 0.5
 			}
@@ -127,17 +127,17 @@ if DECT.ENABLED["wood-floor"] then
 				name = "dect-wood-floor",
 				needs_correction = false,
 				minable = {mining_time = 0.1, result = "dect-wood-floor"},
-				mined_sound = {filename = "__Dectorio__/sound/deconstruct-wood.ogg"},
+				mined_sound = {filename = "__Dectorio_fx__/sound/deconstruct-wood.ogg"},
 				collision_mask = {layers = {ground_tile = true}},
 				walking_speed_modifier = 1.2,
 				layer = tile_layer.wood,
 				decorative_removal_probability = decorative_removal_probability,
 				variants = tile_variants("wood", "boards"),
 				walking_sound = {
-					{filename = "__Dectorio__/sound/walking/wood-01.ogg", volume = 0.95},
-					{filename = "__Dectorio__/sound/walking/wood-02.ogg", volume = 0.95},
-					{filename = "__Dectorio__/sound/walking/wood-03.ogg", volume = 0.95},
-					{filename = "__Dectorio__/sound/walking/wood-04.ogg", volume = 0.95}
+					{filename = "__Dectorio_fx__/sound/walking/wood-01.ogg", volume = 0.95},
+					{filename = "__Dectorio_fx__/sound/walking/wood-02.ogg", volume = 0.95},
+					{filename = "__Dectorio_fx__/sound/walking/wood-03.ogg", volume = 0.95},
+					{filename = "__Dectorio_fx__/sound/walking/wood-04.ogg", volume = 0.95}
 				},
 				map_color = {r = 139, g = 69, b = 19},
 				vehicle_friction_modifier = base_stone_path.vehicle_friction_modifier

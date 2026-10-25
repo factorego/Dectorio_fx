@@ -118,7 +118,7 @@ if DECT.ENABLED["signals"] then
 								icon_mipmaps = 4
 							},
 							{
-								icon = "__Dectorio__/graphics/signal/" .. iconset.name .. "-" .. icon .. ".png",
+								icon = "__Dectorio_fx__/graphics/signal/" .. iconset.name .. "-" .. icon .. ".png",
 								icon_size = 64,
 								icon_mipmaps = 1
 							}

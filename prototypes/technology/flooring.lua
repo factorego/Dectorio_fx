@@ -6,7 +6,7 @@ if DECT.ENABLED["wood-floor"] then
 			{
 				type = "technology",
 				name = "dect-wood-floor",
-				icon = "__Dectorio__/graphics/technology/wood-floor.png",
+				icon = "__Dectorio_fx__/graphics/technology/wood-floor.png",
 				icon_size = 256,
 				icon_mipmaps = 1,
 				unit = {
@@ -54,7 +54,7 @@ if DECT.ENABLED["painted-concrete"] then
 			{
 				type = "technology",
 				name = "dect-concrete-paint",
-				icon = "__Dectorio__/graphics/technology/concrete-paint.png",
+				icon = "__Dectorio_fx__/graphics/technology/concrete-paint.png",
 				icon_size = 256,
 				icon_mipmaps = 1,
 				prerequisites = {"concrete"},

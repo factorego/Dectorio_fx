@@ -7,7 +7,7 @@ base_lamp.fast_replaceable_group = "lamp"
 -- Add glowing coloured lamp
 local lamp = util.table.deepcopy(base_lamp)
 lamp.name = "dect-small-lamp-glow"
-lamp.icon = "__Dectorio__/graphics/icons/small-lamp-glow.png"
+lamp.icon = "__Dectorio_fx__/graphics/icons/small-lamp-glow.png"
 lamp.icon_size = 64
 lamp.icon_mipmaps = 1
 lamp.minable.result = "dect-small-lamp-glow"

@@ -46,7 +46,7 @@ if DECT.ENABLED["painted-concrete"] then
 				{
 					type = "item",
 					name = "dect-paint-" .. variant.name,
-					icon = "__Dectorio__/graphics/icons/paint-" .. variant.name .. ".png",
+					icon = "__Dectorio_fx__/graphics/icons/paint-" .. variant.name .. ".png",
 					icon_size = 64,
 					icon_mipmaps = 1,
 					subgroup = "flooring-painted",
@@ -81,7 +81,7 @@ if DECT.ENABLED["painted-concrete"] then
 				{
 					type = "item",
 					name = "dect-paint-refined-" .. variant.name,
-					icon = "__Dectorio__/graphics/icons/paint-" .. variant.name .. "-refined.png",
+					icon = "__Dectorio_fx__/graphics/icons/paint-" .. variant.name .. "-refined.png",
 					icon_size = 64,
 					icon_mipmaps = 1,
 					subgroup = "flooring-painted-refined",
@@ -145,10 +145,10 @@ if DECT.ENABLED["painted-concrete"] then
 	base_refined_hazard_item.stack_size = DECT.CONFIG.SETTINGS["flooring_stack_size"]
 
 	if not DECT.CONFIG.SETTINGS["vanilla_hazard_concrete"] then
-		base_hazard_item.icon = "__Dectorio__/graphics/icons/paint-hazard.png"
+		base_hazard_item.icon = "__Dectorio_fx__/graphics/icons/paint-hazard.png"
 		base_hazard_item.icon_size = 64
 		base_hazard_item.icon_mipmaps = 1
-		base_refined_hazard_item.icon = "__Dectorio__/graphics/icons/paint-hazard-refined.png"
+		base_refined_hazard_item.icon = "__Dectorio_fx__/graphics/icons/paint-hazard-refined.png"
 		base_refined_hazard_item.icon_size = 64
 		base_refined_hazard_item.icon_mipmaps = 1
 	end
@@ -170,7 +170,7 @@ if DECT.ENABLED["wood-floor"] then
 			{
 				type = "item",
 				name = "dect-wood-floor",
-				icon = "__Dectorio__/graphics/icons/wood-floor.png",
+				icon = "__Dectorio_fx__/graphics/icons/wood-floor.png",
 				icon_size = 64,
 				icon_mipmaps = 1,
 				fuel_category = "chemical",
@@ -194,7 +194,7 @@ if DECT.ENABLED["concrete"] then
 			{
 				type = "item",
 				name = "dect-concrete-grid",
-				icon = "__Dectorio__/graphics/icons/concrete-grid.png",
+				icon = "__Dectorio_fx__/graphics/icons/concrete-grid.png",
 				icon_size = 64,
 				icon_mipmaps = 1,
 				subgroup = "flooring-basic",
@@ -219,7 +219,7 @@ if DECT.ENABLED["gravel"] then
 					type = "item",
 					name = "dect-" .. variant.name .. "-gravel",
 					icons = {
-						{icon = "__Dectorio__/graphics/icons/gravel.png", tint = variant.color}
+						{icon = "__Dectorio_fx__/graphics/icons/gravel.png", tint = variant.color}
 					},
 					icon_size = 64,
 					icon_mipmaps = 1,

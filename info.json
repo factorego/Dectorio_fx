@@ -1,15 +1,15 @@
 {
-  "name": "Dectorio",
+  "name": "Dectorio_fx",
   "version": "0.13.1",
-  "title": "Dectorio",
+  "title": "Dectorio FX",
   "author": "PantherX",
-  "contact": "",
-  "homepage": "https://github.com/jpanther/Dectorio",
   "factorio_version": "2.0",
   "dependencies": [
+    "! Dectorio",
     "base >= 2.0",
     "? alien-biomes >= 0.7.1",
     "(?) aai-industry >= 0.6.4"
   ],
-  "license": "GNU GPLv3"
+  "license": "GNU GPLv3",
+  "description": "Decorative walls, paths, terrain and more (FX version - incompatible with the original mod)"
 }

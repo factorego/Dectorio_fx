@@ -45,10 +45,10 @@ end
 -- Things to check when the mod is updated or other mods are added/removed
 local function on_configuration_changed(data)
 	-- Notify version and updates
-	if data.mod_changes ~= nil and data.mod_changes["Dectorio"] ~= nil and data.mod_changes["Dectorio"].old_version == nil then
-		notify({"dect-notify.version", {"dect-notify.dectorio"}, data.mod_changes["Dectorio"].new_version})
+	if data.mod_changes ~= nil and data.mod_changes["Dectorio_fx"] ~= nil and data.mod_changes["Dectorio_fx"].old_version == nil then
+		notify({"dect-notify.version", {"dect-notify.dectorio"}, data.mod_changes["Dectorio_fx"].new_version})
 	elseif
-		data.mod_changes ~= nil and data.mod_changes["Dectorio"] ~= nil and data.mod_changes["Dectorio"].old_version ~= nil
+		data.mod_changes ~= nil and data.mod_changes["Dectorio_fx"] ~= nil and data.mod_changes["Dectorio_fx"].old_version ~= nil
 	 then
 		-- Reset tech and recipes
 		for _, force in pairs(game.forces) do
@@ -57,8 +57,8 @@ local function on_configuration_changed(data)
 		end
 
 		-- Notify version change
-		local oldver = data.mod_changes["Dectorio"].old_version
-		local newver = data.mod_changes["Dectorio"].new_version
+		local oldver = data.mod_changes["Dectorio_fx"].old_version
+		local newver = data.mod_changes["Dectorio_fx"].new_version
 		notify({"dect-notify.new-version", {"dect-notify.dectorio"}, oldver, newver})
 	end
 

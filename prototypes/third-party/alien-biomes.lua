@@ -72,7 +72,7 @@ if DECT.ENABLED["landscaping"] and mods["alien-biomes"] then
 					type = "item",
 					name = "dect-alien-biomes-"..tile,
 					localised_name = data.raw["tile"][tile].localised_name,
-					icon = "__Dectorio__/graphics/third-party/alien-biomes/icons/"..tile..".png",
+					icon = "__Dectorio_fx__/graphics/third-party/alien-biomes/icons/"..tile..".png",
 					icon_size = 32,
 					subgroup = "landscaping",
 					order = "a[alien-biomes-"..tile.."]",
