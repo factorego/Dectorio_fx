@@ -96,7 +96,7 @@ if DECT.ENABLED["landscaping"] and mods["alien-biomes"] then
 					name = "dect-alien-biomes-"..tile,
 					energy_required = 5,
 					enabled = false,
-					category = "crafting",
+					categories = {"crafting"},
 					ingredients = {
 						{type = "item", name = "stone", amount = 2}
 					},
@@ -149,7 +149,7 @@ if DECT.ENABLED["landscaping"] and mods["alien-biomes"] then
 					name = "dect-alien-biomes-"..tree,
 					energy_required = 2,
 					enabled = false,
-					category = "crafting",
+					categories = {"crafting"},
 					ingredients = entity_ingredients(tree, "tree"),
 					results = {
 						{type = "item", name = "dect-alien-biomes-"..tree, amount = 1}
@@ -182,7 +182,7 @@ if DECT.ENABLED["landscaping"] and mods["alien-biomes"] then
 					name = "dect-alien-biomes-"..rock.name,
 					energy_required = 2,
 					enabled = false,
-					category = "crafting",
+					categories = {"crafting"},
 					ingredients = entity_ingredients(rock.name, "simple-entity"),
 					results = {
 						{type = "item", name = "dect-alien-biomes-"..rock.name, amount = 1}
