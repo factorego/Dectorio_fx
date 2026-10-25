@@ -10,7 +10,7 @@ if DECT.ENABLED["painted-concrete"] then
 					name = "dect-paint-" .. variant.name,
 					energy_required = 0.25,
 					enabled = false,
-					category = "crafting",
+					categories = {"crafting"},
 					ingredients = {
 						{type = "item", name = "concrete", amount = 10}
 					},
@@ -23,7 +23,7 @@ if DECT.ENABLED["painted-concrete"] then
 					name = "dect-paint-refined-" .. variant.name,
 					energy_required = 0.25,
 					enabled = false,
-					category = "crafting",
+					categories = {"crafting"},
 					ingredients = {
 						{type = "item", name = "refined-concrete", amount = 10}
 					},
@@ -44,7 +44,7 @@ if DECT.ENABLED["painted-concrete"] then
 					name = "dect-" .. color.name .. "-refined-concrete",
 					energy_required = 0.25,
 					enabled = false,
-					category = "crafting",
+					categories = {"crafting"},
 					ingredients = {
 						{type = "item", name = "refined-concrete", amount = 10}
 					},
@@ -67,7 +67,7 @@ if DECT.ENABLED["gravel"] then
 					name = "dect-" .. variant.name .. "-gravel",
 					energy_required = 0.1,
 					enabled = true,
-					category = "crafting",
+					categories = {"crafting"},
 					ingredients = {
 						{type = "item", name = variant.name, amount = 1}
 					},
@@ -90,7 +90,7 @@ if DECT.ENABLED["wood-floor"] then
 				name = "dect-wood-floor",
 				energy_required = 5,
 				enabled = false,
-				category = "crafting",
+				categories = {"crafting"},
 				ingredients = {
 					{type = "item", name = "wood", amount = 10}
 				},
@@ -112,7 +112,7 @@ if DECT.ENABLED["concrete"] then
 				name = "dect-concrete-grid",
 				energy_required = 10,
 				enabled = false,
-				category = "crafting-with-fluid",
+				categories = {"crafting-with-fluid"},
 				ingredients = {
 					{type = "item", name = "stone-brick", amount = 5},
 					{type = "item", name = "iron-ore", amount = 1},

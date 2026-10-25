@@ -1,7 +1,7 @@
 function enableIfExists(table, key)
 	if (table[key] ~= nil)
 	then
-		table[key].enable = true
+		table[key].enabled = true
 	end
 end
 

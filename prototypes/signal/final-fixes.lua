@@ -16,7 +16,7 @@ if DECT.ENABLED["signals"] then
 		if signal.type == "virtual" then
 			table.insert(mapped_colors, {type=signal.type, name=signal.name, color=signal.color})
 		else
-			if signal.name:find("%-science%-pack") and data.raw["tool"][signal.name] then
+			if signal.name:find("%-science%-pack") and data.raw["tool"] and data.raw["tool"][signal.name] then
 				table.insert(mapped_colors, {type=signal.type, name=signal.name, color=signal.color})
 			elseif data.raw[signal.type][signal.name] then
 				table.insert(mapped_colors, {type=signal.type, name=signal.name, color=signal.color})

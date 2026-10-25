@@ -3,7 +3,7 @@
   "version": "0.13.1",
   "title": "Dectorio FX",
   "author": "PantherX",
-  "factorio_version": "2.0",
+  "factorio_version": "2.1",
   "dependencies": [
     "! Dectorio",
     "base >= 2.0",

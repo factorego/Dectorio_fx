@@ -13,7 +13,7 @@ if DECT.ENABLED["landscaping"] then
 					name = "dect-base-"..tile,
 					energy_required = 5,
 					enabled = false,
-					category = "crafting",
+					categories = {"crafting"},
 					ingredients = {
 						{type = "item", name = "stone", amount = 2}
 					},
@@ -62,7 +62,7 @@ if DECT.ENABLED["waterfill"] then
 					name = "dect-base-"..tile,
 					energy_required = 10,
 					enabled = false,
-					category = "crafting-with-fluid",
+					categories = {"crafting-with-fluid"},
 					ingredients = {
 						{type = "item", name = "explosives", amount = 5},
 						{type = "fluid", name = "water", amount = 100}
@@ -110,7 +110,7 @@ if DECT.ENABLED["landscaping"] then
 				name = "dect-base-"..tree,
 				energy_required = 2,
 				enabled = false,
-				category = "crafting",
+				categories = {"crafting"},
 				ingredients = entity_ingredients(tree, "tree"),
 				results = {
 					{type = "item", name = "dect-base-"..tree, amount = 1},
@@ -127,7 +127,7 @@ if DECT.ENABLED["landscaping"] then
 				name = "dect-base-"..rock,
 				energy_required = 2,
 				enabled = false,
-				category = "crafting",
+				categories = {"crafting"},
 				ingredients = entity_ingredients(rock, "simple-entity"),
 				results = {
 					{type = "item", name = "dect-base-"..rock, amount = 1},
